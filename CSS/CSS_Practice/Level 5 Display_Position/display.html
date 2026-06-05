@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+    <style>
+        .box{
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            background-color: darkgreen;
+            margin: 15px;
+            display: block; 
+        }
+        .boxa{
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            background-color: darkgreen;
+            margin: 15px;
+            display: inline;  
+        }
+        .boxb{
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            background-color: darkgreen;
+            margin: 15px;
+            display: inline-block;  
+        }
+        #box5{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h4>Display Block Property :</h2>
+   <div id="box1" class="box">Box1</div>
+   <div id="box2" class="box">Box2</div>
+
+   <h4>Display Inline porperty :</h2>
+    <div id="box3" class="boxa">Box3</div>
+   <div id="box4" class="boxa">Box4</div>
+
+   <h4>Display Inline-Block porperty :</h2>
+    <div id="box5" class="boxb">Box5</div>
+   <div id="box6" class="boxb">Box6</div>
+</body>
+</html>

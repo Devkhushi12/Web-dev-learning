@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Translate</title>
+    <style>
+        h2{margin-left: 100px;}
+        .box{
+            height: 80px;
+            width: 80px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+            top: 30px;
+            left: 400px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            
+        }
+        #box1{background-color: rgb(248, 228, 51);}
+        #box1:hover{transform: translate(50px);}
+
+        #box2{background-color: rgb(110, 183, 243);}
+        #box2:hover{transform: translate(50px,50px);}
+
+        #box3{background-color: rgb(106, 245, 152);}
+        #box3:hover{transform: translateX(50px);}
+
+        #box4{background-color: lightcoral;}
+        #box4:hover{transform: translateY(50px);}
+    </style>
+</head>
+<body>
+    <h2>Transform Translate Property :</h2>
+    <div id="box1" class="box">Translate 50px</div>
+    <div id="box2" class="box">Translate 50px 50px</div>
+    <div id="box3" class="box">Translate X 50px</div>
+    <div id="box4" class="box">Translate Y 50px</div>
+</body>
+</html>

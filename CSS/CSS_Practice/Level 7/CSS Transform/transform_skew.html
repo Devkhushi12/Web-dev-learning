@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Scale</title>
+    <style>
+        h2{margin-left: 100px;}
+        .box{
+            height: 80px;
+            width: 80px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+            top: 30px;
+            left: 400px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            
+        }
+        #box1{background-color: chartreuse;}
+        #box1:hover{transform: skew(45deg);}
+
+        #box2{background-color: deeppink;}
+        #box2:hover{transform: skew(90deg);}
+
+     
+        
+    </style>
+</head>
+<body>
+    <h2>Transform Skew Property :</h2>
+    <div id="box1" class="box">Skew 45deg</div>
+    <div id="box2" class="box">Skew 90deg</div>
+    
+</body>
+</html>

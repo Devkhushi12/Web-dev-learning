@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 1</title>
+    <style>
+        .box{
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: coral;
+            position: relative;
+            top: 100px;
+            left: 100px;
+
+            animation-name: ghummkadi;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+
+           /* animation: ghummkadi 2s ease-in-out 0s 5 reverse alternate;*/
+        
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+        }
+        @keyframes ghummkadi {
+            form{left :10px}
+            to{left: 500px}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Animate</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Scale</title>
+    <style>
+        h2{margin-left: 100px;}
+        .box{
+            height: 80px;
+            width: 80px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+            top: 30px;
+            left: 400px;
+
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            
+        }
+        #box1{background-color: chartreuse;}
+        #box1:hover{transform: scale(2);}
+
+        #box2{background-color: deeppink;}
+        #box2:hover{transform: scale(4);}
+
+        #box3{background-color: gold;}
+        #box3:hover{transform: scaleX(2);}
+
+        #box4{background-color: lightcoral;}
+        #box4:hover{transform: scaleY(2);}
+        
+    </style>
+</head>
+<body>
+    <h2>Transform Scale Property :</h2>
+    <div id="box1" class="box">Scale twice</div>
+    <div id="box2" class="box">Scale 4 times</div>
+    <div id="box3" class="box">Scale X twice</div>
+    <div id="box4" class="box">Scale Y twice</div>
+</body>
+</html>

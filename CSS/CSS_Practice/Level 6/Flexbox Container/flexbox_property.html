@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h4{
+            margin: 5px;
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid red;
+            margin-right: 5px;
+            margin: 5px;
+        }
+        #container1{
+            height:60px;
+            width: 600px;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: row;
+           /* flex-direction: row-reverse;*/
+        }
+        #container2{
+            height: 300px;
+            width: 60px;
+            border: 2px solid black;
+            margin-left: 30px;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+            /*flex-direction: column-reverse;*/
+
+        }
+        #div1{background-color: aqua;}
+        #div2{background-color:blueviolet;}
+        #div3{background-color: rgb(97, 226, 45);}
+        #div4{background-color: rgb(72, 43, 238);}
+        #div5{background-color: rgb(223, 226, 31);}
+        #div6{background-color: rgb(21, 110, 110);}
+        #div7{background-color: rgb(241, 43, 192);}
+        #div8{background-color: rgb(11, 138, 17);}
+    </style>
+</head>
+<body>
+    <h4>Flexbox Container for rows :</h2>
+    <div id="container1">
+        <div id="div1" class="box">Box 1</div>
+        <div id="div2" class="box">Box 2</div>
+        <div id="div3" class="box">Box 3</div>
+        <div id="div4" class="box">Box 4</div>
+    </div>
+   
+    <h4>Flexbox Container for column :</h2>
+    <div id="container2">
+        <div id="div5" class="box">Box 5</div>
+        <div id="div6" class="box">Box 6</div>
+        <div id="div7" class="box">Box 7</div>
+        <div id="div8" class="box">Box 8</div>
+    </div>
+</body>
+</html>
