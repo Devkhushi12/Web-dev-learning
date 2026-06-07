@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container{
+    height: 620px;
+    display: flex;
+    
+}
+.container1{
+    width: 280px;
+    margin-top: 35px;
+    margin-left: 30px;
+    
+}
+.facebook_icon{
+    height: 280px;
+    padding: 5px;
+}
+.facebook_text{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+.container2{
+    width: 520px;
+    justify-content: start;
+    border-right: 2px solid rgb(192, 191, 191);
+
+}
+.image{
+    height: 580px;
+    width: 580px;
+    position: relative;
+    right: 100px;
+}
+.container3{
+    width: 400px;
+}
+.facebook_login{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+input{
+    width: 110%;
+    height: 30px;
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 212, 212);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.1s;
+     font-family: 'Poppins', sans-serif;
+    
+}
+input:hover{
+    border-color: gray;
+}
+input:focus{
+    border: 1px solid gray;
+    outline: none;
+}
+h6{
+    font-size: 15px;
+    color: rgb(99, 97, 97);
+    font-family: sans-serif;
+}
+button{
+    display: block;
+    margin:15px 0; 
+    height: 40px;
+    width: 115%;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    background: none;
+    border-color: rgb(12, 12, 253);
+    border: none;
+}
+.button1{
+    background-color: rgb(12, 12, 253);
+}
+.button2{
+    color: black;
+}
+.button2:hover{
+    background-color: rgb(243, 242, 242);
+}
+.button3{
+    border: 1px solid rgb(12, 12, 253);
+    color: rgb(12, 12, 253);
+    position: relative;
+    top: 30px;
+}
+.button3:hover{
+    background-color: rgb(243, 242, 242);
+}
